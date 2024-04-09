@@ -1,0 +1,149 @@
+* {
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+body {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: azure;
+}
+
+header {
+    display: inline-block;
+}
+
+.nome {
+    font-size: larger;
+    font-weight: bolder;
+    margin-left: 25px;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav a {
+    padding: 10px;
+    font-size: small;
+    margin: 0 auto;
+}
+
+.foto {
+    border-radius: 50%;
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+}
+
+.links_uteis {
+    margin-left: 500px;
+}
+
+.paisagem {
+    object-fit: cover;
+    height: 300px;
+}
+
+.texto_principal {
+    margin-top: -90px;
+    text-align: justify;
+    padding-top: 50px;
+}
+
+aside {
+    width: 40%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+}
+
+.texto_destaque {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.projetos {
+    border-color: black;
+    border-style: solid;
+}
+
+.projeto {
+    display: inline-block;
+    border-color: black;
+    border-style: solid;
+    height: 300px;
+    width: 305px;
+    margin: 0 10px;
+}
+
+#C1 {
+    margin-top: 200px;
+}
+
+.contatos {
+    display: inline-block;
+    background-color: white;
+    font-size: smaller;
+}
+
+.img-contatos {
+    height: 30px; 
+    margin-top: 25px;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+footer p {
+    text-align: center;
+    font-size: small;
+}
+
+.formulario {
+    margin-top: -50px;
+}
+.formulario p {
+    font-weight: bold;
+    font-size: small;
+}
+form {
+    margin-top: 10px;
+}
+#nome-id {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 92px;
+    width: 400px;
+}
+#email-id {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: 90px;
+    width: 400px;
+}
+#fone-id {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: 76px;
+}
+#mensagem-id {
+    vertical-align: top;
+    margin-left: 15px;
+}
+
+#lb-mens {
+    vertical-align: top;
+} 
+
+#bt-enviar {
+    margin-left: 146px;
+    margin-top: 10px;
+    width: 180px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="css/style.css" rel="stylesheet" />
+    <title>Ivo Caetano - Página Pessoal</title>
+</head>
+<body>
+    <header>
+        <img class="foto" src="img/ivojunior.jpg" alt="Foto de Ivo Caaetano" >
+        <p class="nome">Ivo Caetano</p>
+        <span class="links_uteis">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="contato.html">Contato</a>
+            </nav>
+        </span>
+    </header>
+    <div class="paisagem">
+        <img src="img/background-ada.png" alt="pano de fundo" height="100%" width="100%">
+    </div>
+
+    <div class="formulario">
+        <p>Fique a vontade para entrar em contato comigo. Submeta alguma dúvida ou sugestão. Ficarei feliz em te ouvir.</p>
+        <form name="contato" action="#">
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome-id" maxlength="40">
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email-id" maxlength="40">
+            </div>
+            <div>
+                <label for="fone">Telefone:</label>
+                <input type="tel" name="fone" id="fone-id">
+            </div>
+            <div>
+                <label id="lb-mens" for="mensagem">Dúvida/Sugestão:</label>
+                <textarea name="mensagem" id="mensagem-id" cols="48" rows="10"></textarea>
+            </div>
+            <div>
+                <input id="bt-enviar" type="submit" value="Enviar">
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
