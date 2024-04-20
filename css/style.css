@@ -54,6 +54,20 @@ nav a {
     padding-top: 50px;
 }
 
+.conteudo_texto {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conteudo_texto article {
+    flex: 33%;
+    margin: 5px;
+}
+
+.conteudo_texto p {
+    margin-top: 15px;
+}
+
 aside {
     width: 40%;
     padding-left: 15px;
